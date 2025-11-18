@@ -12,7 +12,7 @@ class NodeClass(Node):                  # This class inherits functionalities fr
         self.create_timer(1.0, self.timer_callback)       # Timer that calls the timer_callback every 1.0 seg
 
     def timer_callback(self):
-        self.get_logger().info("Hello, timer callback " + str(self.cnt) +"!")
+        self.get_logger().info("Hello, the timer_callback is called " + str(self.cnt) +"!")
         self.cnt += 1
 
 def main(args=None):
