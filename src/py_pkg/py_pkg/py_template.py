@@ -8,7 +8,7 @@ class NodeClass(Node):                  # This class inherits functionalities fr
     def __init__(self):                 # Constructor
         super().__init__("py_test")     # Node name
         self.cnt = 1
-        self.get_logger().info("Hello ros2 py template!")
+        self.get_logger().info("Hello, this is the ros2 py template!")
         self.create_timer(1.0, self.timer_callback)       # Timer that calls the timer_callback every 1.0 seg
 
     def timer_callback(self):
