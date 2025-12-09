@@ -1,0 +1,54 @@
+[0.011s] Invoking command in '/home/andres/ros2_templates/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/andres/ros2_templates/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/andres/ros2_templates/install/cpp_pkg
+[0.095s] -- The C compiler identification is GNU 13.3.0
+[0.152s] -- The CXX compiler identification is GNU 13.3.0
+[0.168s] -- Detecting C compiler ABI info
+[0.251s] -- Detecting C compiler ABI info - done
+[0.262s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.262s] -- Detecting C compile features
+[0.262s] -- Detecting C compile features - done
+[0.271s] -- Detecting CXX compiler ABI info
+[0.359s] -- Detecting CXX compiler ABI info - done
+[0.368s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.368s] -- Detecting CXX compile features
+[0.369s] -- Detecting CXX compile features - done
+[0.372s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.499s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.598s] -- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+[0.653s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.675s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.700s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.724s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.798s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[0.801s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.875s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[0.894s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[0.918s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.085s] -- Configuring done (1.1s)
+[1.093s] -- Generating done (0.0s)
+[1.097s] -- Build files have been written to: /home/andres/ros2_templates/build/cpp_pkg
+[1.105s] Invoked command in '/home/andres/ros2_templates/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/andres/ros2_templates/src/cpp_pkg -DCMAKE_INSTALL_PREFIX=/home/andres/ros2_templates/install/cpp_pkg
+[1.107s] Invoking command in '/home/andres/ros2_templates/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/andres/ros2_templates/build/cpp_pkg -- -j12 -l12
+[1.151s] [ 50%] [32mBuilding CXX object CMakeFiles/cpp_executable.dir/src/cpp_template.cpp.o[0m
+[3.834s] [100%] [32m[1mLinking CXX executable cpp_executable[0m
+[3.965s] [100%] Built target cpp_executable
+[3.976s] Invoked command in '/home/andres/ros2_templates/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/andres/ros2_templates/build/cpp_pkg -- -j12 -l12
+[3.985s] Invoking command in '/home/andres/ros2_templates/build/cpp_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/andres/ros2_templates/build/cpp_pkg
+[3.992s] -- Install configuration: ""
+[3.992s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/lib/cpp_pkg/cpp_executable
+[3.993s] -- Set non-toolchain portion of runtime path of "/home/andres/ros2_templates/install/cpp_pkg/lib/cpp_pkg/cpp_executable" to ""
+[3.993s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+[3.993s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+[3.993s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+[3.993s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+[3.993s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+[3.994s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+[3.994s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+[3.994s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+[3.994s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+[3.994s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+[3.994s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/package.dsv
+[3.994s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+[3.994s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+[3.995s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+[3.995s] -- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/package.xml
+[3.996s] Invoked command in '/home/andres/ros2_templates/build/cpp_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/andres/ros2_templates/build/cpp_pkg
