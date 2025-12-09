@@ -197,6 +197,43 @@ cpp_pkg_uninstall/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_pkg_uninstall.dir/build.make CMakeFiles/cpp_pkg_uninstall.dir/build
 .PHONY : cpp_pkg_uninstall/fast
 
+#=============================================================================
+# Target rules for targets named cpp_executable
+
+# Build rule for target.
+cpp_executable: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp_executable
+.PHONY : cpp_executable
+
+# fast build rule for target.
+cpp_executable/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_executable.dir/build.make CMakeFiles/cpp_executable.dir/build
+.PHONY : cpp_executable/fast
+
+src/cpp_template.o: src/cpp_template.cpp.o
+.PHONY : src/cpp_template.o
+
+# target to build an object file
+src/cpp_template.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_executable.dir/build.make CMakeFiles/cpp_executable.dir/src/cpp_template.cpp.o
+.PHONY : src/cpp_template.cpp.o
+
+src/cpp_template.i: src/cpp_template.cpp.i
+.PHONY : src/cpp_template.i
+
+# target to preprocess a source file
+src/cpp_template.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_executable.dir/build.make CMakeFiles/cpp_executable.dir/src/cpp_template.cpp.i
+.PHONY : src/cpp_template.cpp.i
+
+src/cpp_template.s: src/cpp_template.cpp.s
+.PHONY : src/cpp_template.s
+
+# target to generate assembly for a file
+src/cpp_template.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_executable.dir/build.make CMakeFiles/cpp_executable.dir/src/cpp_template.cpp.s
+.PHONY : src/cpp_template.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -212,6 +249,10 @@ help:
 	@echo "... test"
 	@echo "... cpp_pkg_uninstall"
 	@echo "... uninstall"
+	@echo "... cpp_executable"
+	@echo "... src/cpp_template.o"
+	@echo "... src/cpp_template.i"
+	@echo "... src/cpp_template.s"
 .PHONY : help
 
 

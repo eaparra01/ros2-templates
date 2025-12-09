@@ -1,3 +1,4 @@
+/home/andres/ros2_templates/install/cpp_pkg/lib/cpp_pkg/cpp_executable
 /home/andres/ros2_templates/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
 /home/andres/ros2_templates/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
 /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
