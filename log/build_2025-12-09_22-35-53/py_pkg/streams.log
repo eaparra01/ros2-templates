@@ -1,0 +1,20 @@
+[0.834s] Invoking command in '/home/andres/ros2_templates/build/py_pkg': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/andres/ros2_templates/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/andres/ros2_templates/build/py_pkg/build --no-deps symlink_data --force
+[1.166s] running develop
+[1.376s] running egg_info
+[1.396s] writing py_pkg.egg-info/PKG-INFO
+[1.396s] writing dependency_links to py_pkg.egg-info/dependency_links.txt
+[1.396s] writing entry points to py_pkg.egg-info/entry_points.txt
+[1.396s] writing requirements to py_pkg.egg-info/requires.txt
+[1.396s] writing top-level names to py_pkg.egg-info/top_level.txt
+[1.437s] reading manifest file 'py_pkg.egg-info/SOURCES.txt'
+[1.437s] writing manifest file 'py_pkg.egg-info/SOURCES.txt'
+[1.459s] running build_ext
+[1.459s] Creating /home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages/py-pkg.egg-link (link to .)
+[1.460s] Installing py_node_executable script to /home/andres/ros2_templates/install/py_pkg/lib/py_pkg
+[1.460s] Installing py_publisher script to /home/andres/ros2_templates/install/py_pkg/lib/py_pkg
+[1.460s] 
+[1.460s] Installed /home/andres/ros2_templates/build/py_pkg
+[1.460s] running symlink_data
+[1.460s] symbolically linking /home/andres/ros2_templates/build/py_pkg/resource/py_pkg -> /home/andres/ros2_templates/install/py_pkg/share/ament_index/resource_index/packages
+[1.460s] symbolically linking /home/andres/ros2_templates/build/py_pkg/package.xml -> /home/andres/ros2_templates/install/py_pkg/share/py_pkg
+[1.489s] Invoked command in '/home/andres/ros2_templates/build/py_pkg' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/andres/ros2_templates/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/andres/ros2_templates/build/py_pkg/build --no-deps symlink_data --force

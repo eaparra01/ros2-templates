@@ -3,7 +3,7 @@ import rclpy
 from rclpy.node import Node
 
 
-class NodeClass(Node):                  # This class inherits functionalities from the ros2 node from rclpy
+class NodeClass(Node):  # CHANGE THE CLASS NAME   # This class inherits functionalities from the ros2 node from rclpy
 
     def __init__(self):                 # Constructor
         super().__init__("py_test")     # Node name
@@ -17,7 +17,7 @@ class NodeClass(Node):                  # This class inherits functionalities fr
 
 def main(args=None):
     rclpy.init(args=args)               # Initialize ros2 communication
-    node = NodeClass()
+    node = NodeClass()                  # CHANGE THE CLASS NAME
     rclpy.spin(node)                    # Keep the node alive until Ctrl+c
     rclpy.shutdown()                    # End ros2 communication
 

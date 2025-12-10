@@ -24,7 +24,9 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            "py_node_executable = py_pkg.py_template:main"
+            "py_node_executable = py_pkg.py_template:main",
+            "py_publisher = py_pkg.py_publisher:main",
+            "py_subscriber = py_pkg.py_subscriber:main"
         ],
     },
 )
