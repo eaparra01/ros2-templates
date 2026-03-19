@@ -1,0 +1,41 @@
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)
+-- Configuring done (0.6s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/andres/ros2_templates/build/cpp_pkg
+[ 16%] [32mBuilding CXX object CMakeFiles/cpp_subscriber.dir/src/cpp_subscriber.cpp.o[0m
+[ 50%] Built target cpp_executable
+[ 66%] [32mBuilding CXX object CMakeFiles/cpp_publisher.dir/src/cpp_publisher.cpp.o[0m
+[ 83%] [32m[1mLinking CXX executable cpp_publisher[0m
+[ 83%] Built target cpp_publisher
+[100%] [32m[1mLinking CXX executable cpp_subscriber[0m
+[100%] Built target cpp_subscriber
+-- Install configuration: ""
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/lib/cpp_pkg/cpp_executable
+-- Installing: /home/andres/ros2_templates/install/cpp_pkg/lib/cpp_pkg/cpp_publisher
+-- Set non-toolchain portion of runtime path of "/home/andres/ros2_templates/install/cpp_pkg/lib/cpp_pkg/cpp_publisher" to ""
+-- Installing: /home/andres/ros2_templates/install/cpp_pkg/lib/cpp_pkg/cpp_subscriber
+-- Set non-toolchain portion of runtime path of "/home/andres/ros2_templates/install/cpp_pkg/lib/cpp_pkg/cpp_subscriber" to ""
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/environment/path.sh
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/environment/path.dsv
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/local_setup.bash
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/local_setup.sh
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/local_setup.zsh
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/local_setup.dsv
+-- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/package.dsv
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake
+-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/package.xml

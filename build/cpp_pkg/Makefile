@@ -210,6 +210,80 @@ cpp_executable/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_executable.dir/build.make CMakeFiles/cpp_executable.dir/build
 .PHONY : cpp_executable/fast
 
+#=============================================================================
+# Target rules for targets named cpp_publisher
+
+# Build rule for target.
+cpp_publisher: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp_publisher
+.PHONY : cpp_publisher
+
+# fast build rule for target.
+cpp_publisher/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_publisher.dir/build.make CMakeFiles/cpp_publisher.dir/build
+.PHONY : cpp_publisher/fast
+
+#=============================================================================
+# Target rules for targets named cpp_subscriber
+
+# Build rule for target.
+cpp_subscriber: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 cpp_subscriber
+.PHONY : cpp_subscriber
+
+# fast build rule for target.
+cpp_subscriber/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_subscriber.dir/build.make CMakeFiles/cpp_subscriber.dir/build
+.PHONY : cpp_subscriber/fast
+
+src/cpp_publisher.o: src/cpp_publisher.cpp.o
+.PHONY : src/cpp_publisher.o
+
+# target to build an object file
+src/cpp_publisher.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_publisher.dir/build.make CMakeFiles/cpp_publisher.dir/src/cpp_publisher.cpp.o
+.PHONY : src/cpp_publisher.cpp.o
+
+src/cpp_publisher.i: src/cpp_publisher.cpp.i
+.PHONY : src/cpp_publisher.i
+
+# target to preprocess a source file
+src/cpp_publisher.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_publisher.dir/build.make CMakeFiles/cpp_publisher.dir/src/cpp_publisher.cpp.i
+.PHONY : src/cpp_publisher.cpp.i
+
+src/cpp_publisher.s: src/cpp_publisher.cpp.s
+.PHONY : src/cpp_publisher.s
+
+# target to generate assembly for a file
+src/cpp_publisher.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_publisher.dir/build.make CMakeFiles/cpp_publisher.dir/src/cpp_publisher.cpp.s
+.PHONY : src/cpp_publisher.cpp.s
+
+src/cpp_subscriber.o: src/cpp_subscriber.cpp.o
+.PHONY : src/cpp_subscriber.o
+
+# target to build an object file
+src/cpp_subscriber.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_subscriber.dir/build.make CMakeFiles/cpp_subscriber.dir/src/cpp_subscriber.cpp.o
+.PHONY : src/cpp_subscriber.cpp.o
+
+src/cpp_subscriber.i: src/cpp_subscriber.cpp.i
+.PHONY : src/cpp_subscriber.i
+
+# target to preprocess a source file
+src/cpp_subscriber.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_subscriber.dir/build.make CMakeFiles/cpp_subscriber.dir/src/cpp_subscriber.cpp.i
+.PHONY : src/cpp_subscriber.cpp.i
+
+src/cpp_subscriber.s: src/cpp_subscriber.cpp.s
+.PHONY : src/cpp_subscriber.s
+
+# target to generate assembly for a file
+src/cpp_subscriber.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_subscriber.dir/build.make CMakeFiles/cpp_subscriber.dir/src/cpp_subscriber.cpp.s
+.PHONY : src/cpp_subscriber.cpp.s
+
 src/cpp_template.o: src/cpp_template.cpp.o
 .PHONY : src/cpp_template.o
 
@@ -250,6 +324,14 @@ help:
 	@echo "... cpp_pkg_uninstall"
 	@echo "... uninstall"
 	@echo "... cpp_executable"
+	@echo "... cpp_publisher"
+	@echo "... cpp_subscriber"
+	@echo "... src/cpp_publisher.o"
+	@echo "... src/cpp_publisher.i"
+	@echo "... src/cpp_publisher.s"
+	@echo "... src/cpp_subscriber.o"
+	@echo "... src/cpp_subscriber.i"
+	@echo "... src/cpp_subscriber.s"
 	@echo "... src/cpp_template.o"
 	@echo "... src/cpp_template.i"
 	@echo "... src/cpp_template.s"

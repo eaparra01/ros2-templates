@@ -1,1 +1,0 @@
-/home/andres/ros2_templates/src/py_pkg/setup.py

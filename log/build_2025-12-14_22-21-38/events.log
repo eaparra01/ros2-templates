@@ -1,0 +1,179 @@
+[0.000000] (-) TimerEvent: {}
+[0.000100] (cpp_pkg) JobQueued: {'identifier': 'cpp_pkg', 'dependencies': OrderedDict()}
+[0.000130] (py_pkg) JobQueued: {'identifier': 'py_pkg', 'dependencies': OrderedDict()}
+[0.000184] (cpp_pkg) JobStarted: {'identifier': 'cpp_pkg'}
+[0.007193] (py_pkg) JobStarted: {'identifier': 'py_pkg'}
+[0.013521] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'cmake'}
+[0.014668] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'build'}
+[0.014710] (cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/andres/ros2_templates/build/cpp_pkg', '--', '-j12', '-l12'], 'cwd': '/home/andres/ros2_templates/build/cpp_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'andres', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/andres', 'OLDPWD': '/home/andres', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2372', 'SYSTEMD_EXEC_PID': '2946', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4563', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/andres/ros2_templates/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'andres', 'JOURNAL_STREAM': '9:24974', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'andres', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/eaparra:@/tmp/.ICE-unix/2783,unix/eaparra:/tmp/.ICE-unix/2783', 'INVOCATION_ID': '63791cd7541d4d228cf73c3c7f63cb73', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/andres/ros2_templates/install/py_pkg:/home/andres/ros2_templates/install/cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9bc4210e-73e2-449b-ad99-fde11ec503b3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/andres/ros2_templates/build/cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/andres/ros2_templates/build/py_pkg:/home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/andres/ros2_templates/install/cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/andres/ros2_templates/install/py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[0.044974] (cpp_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[0.099534] (-) TimerEvent: {}
+[0.199770] (-) TimerEvent: {}
+[0.255834] (cpp_pkg) StdoutLine: {'line': b'-- Found rclcpp: 28.1.13 (/opt/ros/jazzy/share/rclcpp/cmake)\n'}
+[0.283295] (cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[0.293380] (cpp_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[0.299861] (-) TimerEvent: {}
+[0.306560] (cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.322172] (cpp_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.389733] (cpp_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)\n'}
+[0.391180] (cpp_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.399936] (-) TimerEvent: {}
+[0.466118] (cpp_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500024] (-) TimerEvent: {}
+[0.537527] (cpp_pkg) StdoutLine: {'line': b'-- Found example_interfaces: 0.12.0 (/opt/ros/jazzy/share/example_interfaces/cmake)\n'}
+[0.600105] (-) TimerEvent: {}
+[0.686155] (cpp_pkg) StdoutLine: {'line': b'-- Configuring done (0.6s)\n'}
+[0.700191] (-) TimerEvent: {}
+[0.703337] (cpp_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.710415] (cpp_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/andres/ros2_templates/build/cpp_pkg\n'}
+[0.743167] (cpp_pkg) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/cpp_subscriber.dir/src/cpp_subscriber.cpp.o\x1b[0m\n'}
+[0.753764] (cpp_pkg) StdoutLine: {'line': b'[ 50%] Built target cpp_executable\n'}
+[0.754059] (cpp_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/cpp_publisher.dir/src/cpp_publisher.cpp.o\x1b[0m\n'}
+[0.800287] (-) TimerEvent: {}
+[0.900556] (-) TimerEvent: {}
+[0.985557] (py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--uninstall', '--editable', '--build-directory', '/home/andres/ros2_templates/build/py_pkg/build'], 'cwd': '/home/andres/ros2_templates/build/py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'andres', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/andres', 'OLDPWD': '/home/andres', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2372', 'SYSTEMD_EXEC_PID': '2946', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4563', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/andres/ros2_templates/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'andres', 'JOURNAL_STREAM': '9:24974', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'andres', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/eaparra:@/tmp/.ICE-unix/2783,unix/eaparra:/tmp/.ICE-unix/2783', 'INVOCATION_ID': '63791cd7541d4d228cf73c3c7f63cb73', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/andres/ros2_templates/install/py_pkg:/home/andres/ros2_templates/install/cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9bc4210e-73e2-449b-ad99-fde11ec503b3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/andres/ros2_templates/build/py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/andres/ros2_templates/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages:/home/andres/ros2_templates/build/py_pkg:/home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/andres/ros2_templates/install/cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.000648] (-) TimerEvent: {}
+[1.100926] (-) TimerEvent: {}
+[1.201191] (-) TimerEvent: {}
+[1.301464] (-) TimerEvent: {}
+[1.332499] (py_pkg) StdoutLine: {'line': b'running develop\n'}
+[1.401548] (-) TimerEvent: {}
+[1.501934] (-) TimerEvent: {}
+[1.582295] (py_pkg) StdoutLine: {'line': b'Removing /home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages/py-pkg.egg-link (link to .)\n'}
+[1.602170] (-) TimerEvent: {}
+[1.625406] (py_pkg) CommandEnded: {'returncode': 0}
+[1.626529] (py_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/py_pkg', 'build', '--build-base', '/home/andres/ros2_templates/build/py_pkg/build', 'install', '--record', '/home/andres/ros2_templates/build/py_pkg/install.log', '--single-version-externally-managed', 'install_data', '--force'], 'cwd': '/home/andres/ros2_templates/src/py_pkg', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'andres', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/andres', 'OLDPWD': '/home/andres', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2372', 'SYSTEMD_EXEC_PID': '2946', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4563', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/andres/ros2_templates/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'andres', 'JOURNAL_STREAM': '9:24974', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'andres', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/eaparra:@/tmp/.ICE-unix/2783,unix/eaparra:/tmp/.ICE-unix/2783', 'INVOCATION_ID': '63791cd7541d4d228cf73c3c7f63cb73', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/andres/ros2_templates/install/py_pkg:/home/andres/ros2_templates/install/cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9bc4210e-73e2-449b-ad99-fde11ec503b3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/andres/ros2_templates/build/py_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/andres/ros2_templates/build/py_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages:/home/andres/ros2_templates/build/py_pkg:/home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/andres/ros2_templates/install/cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.702220] (-) TimerEvent: {}
+[1.802464] (-) TimerEvent: {}
+[1.902785] (-) TimerEvent: {}
+[1.958911] (py_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[1.979789] (py_pkg) StdoutLine: {'line': b'writing ../../build/py_pkg/py_pkg.egg-info/PKG-INFO\n'}
+[1.980035] (py_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/py_pkg/py_pkg.egg-info/dependency_links.txt\n'}
+[1.980220] (py_pkg) StdoutLine: {'line': b'writing entry points to ../../build/py_pkg/py_pkg.egg-info/entry_points.txt\n'}
+[1.980356] (py_pkg) StdoutLine: {'line': b'writing requirements to ../../build/py_pkg/py_pkg.egg-info/requires.txt\n'}
+[1.980517] (py_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/py_pkg/py_pkg.egg-info/top_level.txt\n'}
+[2.002871] (-) TimerEvent: {}
+[2.025883] (py_pkg) StdoutLine: {'line': b"reading manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[2.026784] (py_pkg) StdoutLine: {'line': b"writing manifest file '../../build/py_pkg/py_pkg.egg-info/SOURCES.txt'\n"}
+[2.027023] (py_pkg) StdoutLine: {'line': b'running build\n'}
+[2.027134] (py_pkg) StdoutLine: {'line': b'running build_py\n'}
+[2.027259] (py_pkg) StdoutLine: {'line': b'copying py_pkg/py_publisher.py -> /home/andres/ros2_templates/build/py_pkg/build/lib/py_pkg\n'}
+[2.027334] (py_pkg) StdoutLine: {'line': b'copying py_pkg/py_template.py -> /home/andres/ros2_templates/build/py_pkg/build/lib/py_pkg\n'}
+[2.027416] (py_pkg) StdoutLine: {'line': b'copying py_pkg/py_subscriber.py -> /home/andres/ros2_templates/build/py_pkg/build/lib/py_pkg\n'}
+[2.027600] (py_pkg) StdoutLine: {'line': b'running install\n'}
+[2.033752] (py_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[2.057867] (py_pkg) StdoutLine: {'line': b'creating /home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages/py_pkg\n'}
+[2.058124] (py_pkg) StdoutLine: {'line': b'copying /home/andres/ros2_templates/build/py_pkg/build/lib/py_pkg/__init__.py -> /home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages/py_pkg\n'}
+[2.058237] (py_pkg) StdoutLine: {'line': b'copying /home/andres/ros2_templates/build/py_pkg/build/lib/py_pkg/py_publisher.py -> /home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages/py_pkg\n'}
+[2.058316] (py_pkg) StdoutLine: {'line': b'copying /home/andres/ros2_templates/build/py_pkg/build/lib/py_pkg/py_template.py -> /home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages/py_pkg\n'}
+[2.058485] (py_pkg) StdoutLine: {'line': b'copying /home/andres/ros2_templates/build/py_pkg/build/lib/py_pkg/py_subscriber.py -> /home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages/py_pkg\n'}
+[2.058721] (py_pkg) StdoutLine: {'line': b'byte-compiling /home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages/py_pkg/__init__.py to __init__.cpython-312.pyc\n'}
+[2.058970] (py_pkg) StdoutLine: {'line': b'byte-compiling /home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages/py_pkg/py_publisher.py to py_publisher.cpython-312.pyc\n'}
+[2.059394] (py_pkg) StdoutLine: {'line': b'byte-compiling /home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages/py_pkg/py_template.py to py_template.cpython-312.pyc\n'}
+[2.059794] (py_pkg) StdoutLine: {'line': b'byte-compiling /home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages/py_pkg/py_subscriber.py to py_subscriber.cpython-312.pyc\n'}
+[2.060121] (py_pkg) StdoutLine: {'line': b'running install_data\n'}
+[2.060260] (py_pkg) StdoutLine: {'line': b'copying resource/py_pkg -> /home/andres/ros2_templates/install/py_pkg/share/ament_index/resource_index/packages\n'}
+[2.060396] (py_pkg) StdoutLine: {'line': b'copying package.xml -> /home/andres/ros2_templates/install/py_pkg/share/py_pkg\n'}
+[2.060529] (py_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.087377] (py_pkg) StdoutLine: {'line': b'Copying ../../build/py_pkg/py_pkg.egg-info to /home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages/py_pkg-0.0.0-py3.12.egg-info\n'}
+[2.088396] (py_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[2.102955] (-) TimerEvent: {}
+[2.203203] (-) TimerEvent: {}
+[2.235878] (py_pkg) StdoutLine: {'line': b'Installing py_node_executable script to /home/andres/ros2_templates/install/py_pkg/lib/py_pkg\n'}
+[2.236184] (py_pkg) StdoutLine: {'line': b'Installing py_publisher script to /home/andres/ros2_templates/install/py_pkg/lib/py_pkg\n'}
+[2.236373] (py_pkg) StdoutLine: {'line': b'Installing py_subscriber script to /home/andres/ros2_templates/install/py_pkg/lib/py_pkg\n'}
+[2.236827] (py_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/andres/ros2_templates/build/py_pkg/install.log'\n"}
+[2.268388] (py_pkg) CommandEnded: {'returncode': 0}
+[2.277580] (py_pkg) JobEnded: {'identifier': 'py_pkg', 'rc': 0}
+[2.303334] (-) TimerEvent: {}
+[2.403595] (-) TimerEvent: {}
+[2.503809] (-) TimerEvent: {}
+[2.604051] (-) TimerEvent: {}
+[2.704311] (-) TimerEvent: {}
+[2.804567] (-) TimerEvent: {}
+[2.904843] (-) TimerEvent: {}
+[3.005087] (-) TimerEvent: {}
+[3.105326] (-) TimerEvent: {}
+[3.205567] (-) TimerEvent: {}
+[3.305814] (-) TimerEvent: {}
+[3.406031] (-) TimerEvent: {}
+[3.506315] (-) TimerEvent: {}
+[3.606561] (-) TimerEvent: {}
+[3.706812] (-) TimerEvent: {}
+[3.807045] (-) TimerEvent: {}
+[3.907291] (-) TimerEvent: {}
+[4.007533] (-) TimerEvent: {}
+[4.107808] (-) TimerEvent: {}
+[4.208010] (-) TimerEvent: {}
+[4.308422] (-) TimerEvent: {}
+[4.408653] (-) TimerEvent: {}
+[4.508922] (-) TimerEvent: {}
+[4.609157] (-) TimerEvent: {}
+[4.709400] (-) TimerEvent: {}
+[4.809643] (-) TimerEvent: {}
+[4.909922] (-) TimerEvent: {}
+[5.010160] (-) TimerEvent: {}
+[5.074135] (cpp_pkg) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable cpp_publisher\x1b[0m\n'}
+[5.110259] (-) TimerEvent: {}
+[5.210529] (-) TimerEvent: {}
+[5.266504] (cpp_pkg) StdoutLine: {'line': b'[ 83%] Built target cpp_publisher\n'}
+[5.310650] (-) TimerEvent: {}
+[5.410917] (-) TimerEvent: {}
+[5.511143] (-) TimerEvent: {}
+[5.611377] (-) TimerEvent: {}
+[5.711612] (-) TimerEvent: {}
+[5.811862] (-) TimerEvent: {}
+[5.912100] (-) TimerEvent: {}
+[6.012333] (-) TimerEvent: {}
+[6.112567] (-) TimerEvent: {}
+[6.212819] (-) TimerEvent: {}
+[6.313038] (-) TimerEvent: {}
+[6.413268] (-) TimerEvent: {}
+[6.513494] (-) TimerEvent: {}
+[6.613733] (-) TimerEvent: {}
+[6.713996] (-) TimerEvent: {}
+[6.814228] (-) TimerEvent: {}
+[6.914461] (-) TimerEvent: {}
+[7.014696] (-) TimerEvent: {}
+[7.114954] (-) TimerEvent: {}
+[7.215187] (-) TimerEvent: {}
+[7.315422] (-) TimerEvent: {}
+[7.415689] (-) TimerEvent: {}
+[7.516033] (-) TimerEvent: {}
+[7.616256] (-) TimerEvent: {}
+[7.716667] (-) TimerEvent: {}
+[7.817145] (-) TimerEvent: {}
+[7.917485] (-) TimerEvent: {}
+[8.006237] (cpp_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable cpp_subscriber\x1b[0m\n'}
+[8.017602] (-) TimerEvent: {}
+[8.117908] (-) TimerEvent: {}
+[8.218244] (-) TimerEvent: {}
+[8.280453] (cpp_pkg) StdoutLine: {'line': b'[100%] Built target cpp_subscriber\n'}
+[8.292522] (cpp_pkg) CommandEnded: {'returncode': 0}
+[8.292974] (cpp_pkg) JobProgress: {'identifier': 'cpp_pkg', 'progress': 'install'}
+[8.301026] (cpp_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/andres/ros2_templates/build/cpp_pkg'], 'cwd': '/home/andres/ros2_templates/build/cpp_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'andres', 'XDG_SESSION_TYPE': 'x11', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/andres', 'OLDPWD': '/home/andres', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'MANAGERPID': '2372', 'SYSTEMD_EXEC_PID': '2946', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'TERMINATOR_DBUS_NAME': 'net.tenshu.Terminator23558193cd9818af7fe4d2c2f5bd9d00f', 'GIO_LAUNCHED_DESKTOP_FILE_PID': '4563', 'GNOME_KEYRING_CONTROL': '/run/user/1000/keyring', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/andres/ros2_templates/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'andres', 'JOURNAL_STREAM': '9:24974', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.SettingsDaemon.MediaKeys.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'andres', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'WINDOWPATH': '2', 'PATH': '/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/eaparra:@/tmp/.ICE-unix/2783,unix/eaparra:/tmp/.ICE-unix/2783', 'INVOCATION_ID': '63791cd7541d4d228cf73c3c7f63cb73', 'XDG_MENU_PREFIX': 'gnome-', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':1', 'TERMINATOR_DBUS_PATH': '/net/tenshu/Terminator2', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/gdm/Xauthority', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/andres/ros2_templates/install/py_pkg:/home/andres/ros2_templates/install/cpp_pkg:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'TERMINATOR_UUID': 'urn:uuid:9bc4210e-73e2-449b-ad99-fde11ec503b3', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'GPG_AGENT_INFO': '/run/user/1000/gnupg/S.gpg-agent:0:1', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/andres/ros2_templates/build/cpp_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/andres/ros2_templates/build/py_pkg:/home/andres/ros2_templates/install/py_pkg/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/andres/ros2_templates/install/cpp_pkg:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/andres/ros2_templates/install/py_pkg:/opt/ros/jazzy'}), 'shell': False}
+[8.308472] (cpp_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.308691] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/lib/cpp_pkg/cpp_executable\n'}
+[8.309158] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/andres/ros2_templates/install/cpp_pkg/lib/cpp_pkg/cpp_publisher\n'}
+[8.310556] (cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/andres/ros2_templates/install/cpp_pkg/lib/cpp_pkg/cpp_publisher" to ""\n'}
+[8.310700] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/andres/ros2_templates/install/cpp_pkg/lib/cpp_pkg/cpp_subscriber\n'}
+[8.314340] (cpp_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/andres/ros2_templates/install/cpp_pkg/lib/cpp_pkg/cpp_subscriber" to ""\n'}
+[8.314633] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/ament_index/resource_index/package_run_dependencies/cpp_pkg\n'}
+[8.314721] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/ament_index/resource_index/parent_prefix_path/cpp_pkg\n'}
+[8.314934] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.sh\n'}
+[8.315216] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/environment/ament_prefix_path.dsv\n'}
+[8.315359] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/environment/path.sh\n'}
+[8.315493] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/environment/path.dsv\n'}
+[8.315589] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/local_setup.bash\n'}
+[8.315704] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/local_setup.sh\n'}
+[8.315789] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/local_setup.zsh\n'}
+[8.315860] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/local_setup.dsv\n'}
+[8.315937] (cpp_pkg) StdoutLine: {'line': b'-- Installing: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/package.dsv\n'}
+[8.316007] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/ament_index/resource_index/packages/cpp_pkg\n'}
+[8.316074] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig.cmake\n'}
+[8.316140] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/cmake/cpp_pkgConfig-version.cmake\n'}
+[8.316219] (cpp_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/andres/ros2_templates/install/cpp_pkg/share/cpp_pkg/package.xml\n'}
+[8.318175] (cpp_pkg) CommandEnded: {'returncode': 0}
+[8.319272] (-) TimerEvent: {}
+[8.330038] (cpp_pkg) JobEnded: {'identifier': 'cpp_pkg', 'rc': 0}
+[8.330791] (-) EventReactorShutdown: {}

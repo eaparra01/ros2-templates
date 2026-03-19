@@ -1,0 +1,97 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-6a18421997ade15a6321.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "cpp_pkg",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_executable::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_executable-ea866bf38e66e9e18431.json",
+					"name" : "cpp_executable",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_pkg_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_pkg_uninstall-5d1b1a1a3ebaa913b37a.json",
+					"name" : "cpp_pkg_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_publisher-189ce77a6d52fce63ac6.json",
+					"name" : "cpp_publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_subscriber-d7a700d2a36c22b79a39.json",
+					"name" : "cpp_subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-0e10efd78a586cef1d4a.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/andres/ros2_templates/build/cpp_pkg",
+		"source" : "/home/andres/ros2_templates/src/cpp_pkg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
